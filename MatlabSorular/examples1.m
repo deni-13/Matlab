@@ -1,5 +1,5 @@
-%1x10 boyutlu vektor.klavyeden poz ve neg sayı tusla
-%ortalama ustu ve altı kac sayı?
+%1x10 boyutlu vektor.klavyeden poz ve neg sayÃ½ tusla
+%ortalama ustu ve altÃ½ kac sayÃ½?
 
 
 clc;close all;clear all;
@@ -7,7 +7,7 @@ alt=0; ust=0;
 A=[];
 
 for i=1:10,
-    x=input('bir sayı gir');
+    x=input('bir sayÃ½ gir');
     A(1,i)=x;
 end
 ort=mean(A);
@@ -20,7 +20,7 @@ for i=1:10,
 end
 print('ortalama alti adedi %d\n',alt)
 print('ortalama ustu adedi %d\n',ust)
-print(mean)
+print(ort)
 
 
 

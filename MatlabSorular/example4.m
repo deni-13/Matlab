@@ -1,10 +1,10 @@
-%klavyeden sayı girilcek ve ort'a en yakın olan alıncaktır
+%klavyeden sayÃ½ girilcek ve ort'a en yakÃ½n olan alÃ½ncaktÃ½r
 
 clc;close all;clear all;
 r=1000;
 
 for i=1:10,
-    a=input('sayı?');
+    a=input('sayÃ½?');
     b(1,i)=a;
 end
 ort =mean(b);
@@ -17,4 +17,4 @@ for j=1:10,
     end
 end
 
-print('ortalamaya en yakın %f\n',sayi)
+fprintf('ortalamaya en yakin %f\n',sayi)

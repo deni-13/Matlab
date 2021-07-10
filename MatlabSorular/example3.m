@@ -1,4 +1,4 @@
-%cosx maclaurin seri acýlýmý
+%cosx maclaurin seri acÃ½lÃ½mÃ½
 % cosx= 1-x^2/(2!)+x^4/(4!)-....
 %ilk 10 terim 
 %fonk genel --> (-1)^n (x^2n/(2*n!)
@@ -10,7 +10,7 @@ for n=0:19, %dahil
     fonk=(x^(2*n)/(factorial(2*n)))*(-1)^n;
     toplam=toplam+fonk;
 end
-print('cosx degeri ----->%f',toplam)
+fprintf('cosx degeri ----->%f',toplam)
     
     
     

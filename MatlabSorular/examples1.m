@@ -18,9 +18,10 @@ for i=1:10,
         ust=ust+1
     end
 end
-print('ortalama alti adedi %d\n',alt)
-print('ortalama ustu adedi %d\n',ust)
-print(ort)
+fprintf('ortalama alti adedi %d\n',alt)
+fprintf('ortalama ustu adedi %d\n',ust)
+fprintf('%d',ort)
+%fprintf will be used for matlab !!not print / printf/ print.ln---> don't confuse them!!!
 
 
 

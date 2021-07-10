@@ -24,7 +24,7 @@ end
 sonuc=toplam/x;
 fprintf('%d',toplam)
 fprintf('%d',x)
-fprintf('%d',sonuc);
+fprintf('%f',sonuc);
 
             
       

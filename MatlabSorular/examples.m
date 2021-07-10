@@ -1,4 +1,4 @@
-%5x5 rastgele [-20,20 ]tamsayı ata ve kac sayı uretildi ve poz ort
+%5x5 rastgele [-20,20 ]tamsayÃ½ ata ve kac sayÃ½ uretildi ve poz ort
 
 
 clc;
@@ -7,8 +7,8 @@ clear all;
 
 
 
-a=round(40*rand(5,5))-20 %rand 0 ile 1 arası uretir 
-%40 sayı uretilcek ve uclarıda dahil
+a=round(40*rand(5,5))-20 %rand 0 ile 1 arasÃ½ uretir 
+%40 sayÃ½ uretilcek ve uclarÃ½da dahil
 
 x=0
 toplam=0
@@ -22,13 +22,12 @@ for i=1:5,
     end
 end
 sonuc=toplam/x;
-display(toplam)
-display(x)
-display(sonuc);
+fprintf('%d',toplam)
+fprintf('%d',x)
+fprintf('%d',sonuc);
 
             
       
         
 
-s
 

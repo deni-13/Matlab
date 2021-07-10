@@ -1,27 +1,27 @@
-%example1 %kac kere yazdým?
-%  k=0
-%  for i=1:100
-%      for j=1:100
-%          disp('circuit');
-%            k=k+1
-%      end
-%  end
-%  disp(k)
-%  %100x100
+%example1 %kac kere yazdÄ±m?
+  k=0
+  for i=1:100
+     for j=1:100
+          disp('circuit');
+            k=k+1
+     end
+  end
+ disp(k)
+ %100x100
 
 
 
 %example 2 log fonk ------------------
 
-% 
-% for ig=1:6000,
-%     if log2(ig)==round(log2(ig))
-%         disp('hello')
-%     end
-% end
-%log 2 tabaný tam sayý olanlar kadar 6000
 
-%asagýdaki fnclardan kullanýcý degerlerine gore cýktýsý a b c cinsinden yaz
+for ig=1:6000,
+     if log2(ig)==round(log2(ig))
+         disp('hello')
+     end
+end
+%log 2 tabanÄ± tam sayÄ± olanlar kadar 6000
+
+%asagÄ±daki fnclardan kullanÄ±cÄ± degerlerine gore cÄ±ktÄ±sÄ± a b c cinsinden yaz
 
 %example 3
 clc;
@@ -52,7 +52,7 @@ disp(fn1(c,b,a)+fn1(b,c,a));
 
 %b ca ----> a b c 
 
-%fn2(c,b) için direk digerleri goturuyor
+%fn2(c,b) iÃ§in direk digerleri goturuyor
 
 %fn1(b,c,a)--> a-c
 
